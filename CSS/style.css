@@ -1,0 +1,107 @@
+body {
+    background: rgb(206, 223, 228);
+    position: relative;
+    color: rgb(5, 66, 85);
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(206, 223, 228);
+
+}
+#header-img {
+    width: 350px;
+    height: 120px;
+    padding: 1rem;
+}
+
+li  {
+    display: inline;
+}
+
+a {
+    
+    color: rgb(5, 66, 85);
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 3rem;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    
+}
+
+
+#main {
+    
+    margin: 200px 20% auto 20%;
+}
+
+#features {
+    text-align: left;
+    margin: auto 10% auto 10%;
+   
+}
+
+#how-it-works {
+    padding: 10%;
+    
+}
+
+form {
+    margin: 10px  auto 50px auto;
+   
+}
+
+form input {
+    border: none;
+   
+}
+
+form input::placeholder {
+    text-align: center;
+   
+}
+#submit {
+    background: rgb(81, 143, 161);
+    color:  white;
+    font-weight: bold;
+}
+
+#pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .price {
+      margin: 2%;
+      padding: 0%;
+      border: 1px solid rgb(88, 155, 218);
+      width: 50%;
+  }
+
+  .price h3 {
+
+      background: rgb(81, 143, 161);
+      color: rgb(206, 223, 228);
+  }
+
+  .descript {
+    background: rgb(81, 143, 161);
+    color: rgb(206, 223, 228);
+    padding: 5%;
+    font-weight: 500;
+  }
+
+  .btn {
+    background: rgb(206, 223, 228);
+  }
+
+  footer {
+      padding: 3%;
+  }
